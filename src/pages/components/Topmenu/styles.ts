@@ -19,5 +19,8 @@ export const LeftArea = styled.div`
 `
 
 export const RightArea = styled.div`
-
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 `

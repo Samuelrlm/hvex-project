@@ -1,14 +1,14 @@
-import { ContainerMenu, LeftArea } from "./styles";
+import ButtonTopMenu from "./Button";
+import LogoMenu from "./Logo/Index";
+import OptionsMenu from "./Options";
+import { ContainerMenu, LeftArea, RightArea } from "./styles";
 
 export default function TopMenu(){
     return(
         <ContainerMenu>
-            <LeftArea>
-                <h3>Logo</h3>
-            </LeftArea>
-            <div className="right">
-                <h3>Opções</h3>
-            </div>
+            <LogoMenu/>
+            <OptionsMenu/>
+            <ButtonTopMenu/>
         </ContainerMenu>
     )
 }
