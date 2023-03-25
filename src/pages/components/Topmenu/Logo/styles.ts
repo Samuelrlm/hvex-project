@@ -6,8 +6,7 @@ export const ContainerLogo = styled.div`
     display: flex;
     align-items:center;
     justify-content: center;
-    svg{
-        margin-left: 5rem;
+    img{
         :hover{
             cursor: pointer;
         }
