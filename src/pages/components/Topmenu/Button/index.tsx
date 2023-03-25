@@ -1,4 +1,4 @@
-import { ButtonMenu } from "../../buttons";
+import { ButtonMenu } from "../../buttons/ButtonMenu";
 import { ContainerButton } from "./styles";
 
 export default function ButtonTopMenu(){

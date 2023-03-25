@@ -3,7 +3,8 @@ import styled from "styled-components";
 export const ContainerMenu = styled.div`
     display: flex;
     align-items: center;
-    position: fixed;
+    position: sticky;
+    top: 0;
     width: 100%;
     height: 100px;
     background: #252835;

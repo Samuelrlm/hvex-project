@@ -9,4 +9,9 @@ export const ButtonMenu = styled.button`
     font-size: 16px;
     height: 50px;
     width: 170px;
+    transition: all 300ms ease-in-out;
+    :hover{
+        background: #00B6DE;
+        color: white;
+    }
 `

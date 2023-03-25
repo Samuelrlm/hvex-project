@@ -1,4 +1,4 @@
-import { ButtonMenu } from "../../buttons";
+import { ButtonMenu } from "../../buttons/ButtonMenu";
 import { LabelModel } from "../../label";
 import { ContainerOptions } from "./styles";
 
