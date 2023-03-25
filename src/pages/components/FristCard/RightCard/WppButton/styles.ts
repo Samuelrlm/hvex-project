@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const ContainerWpp = styled.div`
     width: 55px;
     height: 55px;
-    position: absolute;
     margin-right: 12rem;
     background: #00B6DE;
     border-radius: 50%;

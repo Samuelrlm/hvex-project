@@ -9,6 +9,7 @@ export const ContainerMenu = styled.div`
     height: 100px;
     background: #252835;
     color: #ffffff;
+    z-index: 2;
 `
 
 export const LeftArea = styled.div`

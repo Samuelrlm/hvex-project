@@ -8,4 +8,5 @@ export const RightContainer = styled.div`
     justify-content: flex-end;
     background-image: url('src/images/dispositivo.png');
     background-repeat: no-repeat;
+    z-index: 1;
 `
