@@ -1,9 +1,12 @@
+import LeftSecondCard from "./LeftCard";
+import RightSecondCard from "./RightCard";
 import { ContainerSecondCard } from "./styles";
 
 export default function SecondCard() {
     return (
         <ContainerSecondCard>
-            <h1>olá</h1>
+            <LeftSecondCard/>
+            <RightSecondCard/>
         </ContainerSecondCard>
     )
 }
