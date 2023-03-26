@@ -1,12 +1,12 @@
+import { ContainerCardWithe } from "../background/ContainerWithe";
 import LeftSecondCard from "./LeftCard";
 import RightSecondCard from "./RightCard";
-import { ContainerSecondCard } from "./styles";
 
 export default function SecondCard() {
     return (
-        <ContainerSecondCard>
+        <ContainerCardWithe>
             <LeftSecondCard/>
             <RightSecondCard/>
-        </ContainerSecondCard>
+        </ContainerCardWithe>
     )
 }

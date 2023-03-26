@@ -1,6 +1,9 @@
 import { CardGrid, ContainerRightGrid } from "./styles";
 
 export default function RightGrid() {
+    // No momento em que estou desenvolvendo essa tela, o prototipo 
+    // do figma está sem o icone do primeiro CardGrid, portanto 
+    // repliquei o ultimo icone
     const Cards = [
         {imagem:'src/images/Icons/wifi.png', titulo:'Sistema de Proteção'},
         {imagem:'src/images/Icons/integracao.png', titulo:'Integração de dados'},

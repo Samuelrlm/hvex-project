@@ -1,3 +1,4 @@
+import FourthCard from "../components/FourthCard";
 import FristCard from "../components/FristCard";
 import SecondCard from "../components/SecondCard";
 import ThirdCard from "../components/ThirdCard";
@@ -11,6 +12,7 @@ export default function MainPage(){
             <FristCard/>
             <SecondCard/>
             <ThirdCard/>
+            <FourthCard/>
         </ContainerMain>
     )
 }
