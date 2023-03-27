@@ -5,4 +5,6 @@ export const ContainerCardWithe = styled.div`
     height: 120vh;
     background: #ffffff;
     display: flex;
+    align-items: center;
+    justify-content: center;
 `

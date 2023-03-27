@@ -1,5 +1,4 @@
-import { ButtonMenu } from "../../buttons/ButtonMenu";
-import { LabelModel } from "../../label";
+import { LabelModel } from "../../objetos/label";
 import { ContainerOptions } from "./styles";
 
 export default function OptionsMenu(){
