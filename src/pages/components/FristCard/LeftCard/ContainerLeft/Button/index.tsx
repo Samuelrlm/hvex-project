@@ -1,4 +1,4 @@
-import { ButtonInfo } from "../../../buttons/ButtonInfo";
+import { ButtonInfo } from "../../../../buttons/ButtonInfo";
 import { ContainerButtonInfo } from "./styles";
 
 export default function ButtonInfoFrist(){

@@ -4,7 +4,7 @@ import { ContainerOptions } from "./styles";
 export default function OptionsMenu(){
     return(
         <ContainerOptions>
-            <LabelModel id="select">
+            <LabelModel style={{color: '#00B6DE'}}>
                 Omni trafo
             </LabelModel>
             <LabelModel>
@@ -13,7 +13,6 @@ export default function OptionsMenu(){
             <LabelModel>
                 Acoplador DP
             </LabelModel>
-            
         </ContainerOptions>
     )
 }

@@ -3,8 +3,9 @@ import styled from "styled-components";
 export const TextArea = styled.div`
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 64%;
     height: 60%;
+    margin-left: 5rem;
 `
 export const Titulo = styled.div`
     h1{
@@ -14,6 +15,7 @@ export const Titulo = styled.div`
 
 export const Info = styled.div`
     margin-top: 2rem;
+    width: 85%;
     p{
         font-size: 20px;
     }

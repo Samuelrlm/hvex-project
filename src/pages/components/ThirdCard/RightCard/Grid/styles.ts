@@ -6,7 +6,6 @@ export const ContainerRightGrid = styled.div`
     height: 80%;    
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-    
 `
 export const CardGrid = styled.div`
     width: 242px;
@@ -21,9 +20,9 @@ export const CardGrid = styled.div`
     border: 2px solid #52E0FF;
     border-radius: 10px;
     #text{
-        width: 90%;
+        width: 85%;
     }
     h2{
-        margin-top: 1rem;
+        margin-top: 1.5rem;
     }
 `

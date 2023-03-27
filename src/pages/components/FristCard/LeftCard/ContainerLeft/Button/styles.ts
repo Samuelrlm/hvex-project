@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
 export const ContainerButtonInfo = styled.div`
-    width: 90%;
+    width: 80%;
     height: 30%;
+    margin-left: 5rem;
     button{
-        margin-top: 3rem;
-        margin-left: 4rem;
+        margin-top: 9rem;
     }
 `

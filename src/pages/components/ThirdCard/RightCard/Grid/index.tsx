@@ -5,7 +5,7 @@ export default function RightGrid() {
     // do figma está sem o icone do primeiro CardGrid, portanto 
     // repliquei o ultimo icone
     const Cards = [
-        {imagem:'src/images/Icons/wifi.png', titulo:'Sistema de Proteção'},
+        {imagem:'src/images/Icons/energiaRenova.png', titulo:'Sistema de Proteção'},
         {imagem:'src/images/Icons/integracao.png', titulo:'Integração de dados'},
         {imagem:'src/images/Icons/engrenagem.png', titulo:'Gestão de Ativos Elétricos'},
         {imagem:'src/images/Icons/wifi.png', titulo:'Comunicação inteligente'},
