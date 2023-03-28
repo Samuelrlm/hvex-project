@@ -1,3 +1,4 @@
+import ComponenteDivisor from "../components/ComponenteDivisor";
 import FifthCard from "../components/FifthCard";
 import FourthCard from "../components/FourthCard";
 import FristCard from "../components/FristCard";
@@ -15,6 +16,7 @@ export default function MainPage(){
             <ThirdCard/>
             <FourthCard/>
             <FifthCard/>
+            <ComponenteDivisor/>
         </ContainerMain>
     )
 }

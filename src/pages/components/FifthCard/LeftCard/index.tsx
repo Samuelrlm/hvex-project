@@ -6,7 +6,7 @@ import Topicos from "./Topicos";
 export default function LeftContainerCard(){
     return(
         <ContainerLeftFifth>
-            <Titulo32 style={{width: '75%', color:'#1C2C44', }}>
+            <Titulo32 style={{width: '75%', color:'#1C2C44', marginBottom:'2rem'}}>
                 Desenvolvido para melhorar a performance dos ativos de distribuição
             </Titulo32>
             <div>
