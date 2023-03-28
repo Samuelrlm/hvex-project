@@ -2,6 +2,7 @@ import ComponenteDivisor from "../components/ComponenteDivisor";
 import FifthCard from "../components/FifthCard";
 import FourthCard from "../components/FourthCard";
 import FristCard from "../components/FristCard";
+import Questions from "../components/PerguntasCard";
 import SecondCard from "../components/SecondCard";
 import ThirdCard from "../components/ThirdCard";
 import TopMenu from "../components/Topmenu";
@@ -17,6 +18,7 @@ export default function MainPage(){
             <FourthCard/>
             <FifthCard/>
             <ComponenteDivisor/>
+            <Questions/>
         </ContainerMain>
     )
 }
