@@ -11,4 +11,11 @@ export const ContainerLogo = styled.div`
             cursor: pointer;
         }
     }
+    @media (max-width: 600px) {
+        width: 100%;
+        display: flex;
+        img{
+            width: 100px;
+        }
+    }
 `

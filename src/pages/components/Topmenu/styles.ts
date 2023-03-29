@@ -10,19 +10,15 @@ export const ContainerMenu = styled.div`
     background: #252835;
     color: #ffffff;
     z-index: 3;
-`
-
-export const LeftArea = styled.div`
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 40%;
-    height: 100%;
-`
-
-export const RightArea = styled.div`
-    width: 60%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    #filtro{
+        display: none;
+    }
+    @media (max-width: 600px) {
+        display: flex;
+        height: auto;
+        padding: 0.5rem;
+        #filtro{
+            display: flex;
+        }
+    }
 `

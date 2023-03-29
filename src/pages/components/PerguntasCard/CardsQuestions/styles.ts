@@ -12,7 +12,8 @@ export const ContainerMainQuestions = styled.div`
 
 export const CardQuestion = styled.div`
     width: 93%;
-    height: 202px;
+    height: auto;
+    min-height: 202px;
     border-radius: 10px;
     background: #F9F9F9;
     box-shadow: 0px 10px 20px -5px rgba(0, 0, 0, 0.19);

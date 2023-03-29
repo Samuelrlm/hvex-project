@@ -8,4 +8,7 @@ export const ContainerButton = styled.div`
     button{
         margin-left: 3rem;
     }
+    @media (max-width: 600px) {
+        display: none;
+    }
 `
