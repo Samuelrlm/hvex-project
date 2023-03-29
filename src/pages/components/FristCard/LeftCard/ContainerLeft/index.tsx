@@ -1,5 +1,6 @@
+import WppButton from "../../WppButton";
 import ButtonInfoFrist from "./Button";
-import { ContainerLeftComponent } from "./styles";
+import { ContainerBtnWpp, ContainerLeftComponent} from "./styles";
 import TextInfo from "./TextInfo";
 
 export default function LeftContainerCard(){
@@ -7,6 +8,9 @@ export default function LeftContainerCard(){
         <ContainerLeftComponent>
             <TextInfo/>
             <ButtonInfoFrist/>
+            <ContainerBtnWpp>
+                <WppButton/>
+            </ContainerBtnWpp>
         </ContainerLeftComponent>
     )
 }

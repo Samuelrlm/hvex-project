@@ -1,6 +1,4 @@
-import ButtonInfoFrist from "./ContainerLeft/Button";
 import { LeftContainer } from "./styles";
-import TextInfo from "./ContainerLeft/TextInfo";
 import LeftContainerCard from "./ContainerLeft";
 
 export default function LeftCard(){

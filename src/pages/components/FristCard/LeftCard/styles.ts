@@ -8,5 +8,5 @@ export const LeftContainer = styled.div`
     align-items: center;
     justify-content: center;
     position: relative;
-    z-index: 2;
+    z-index: 1;
 `

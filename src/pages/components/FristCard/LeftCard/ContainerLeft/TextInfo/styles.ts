@@ -4,7 +4,7 @@ export const TextArea = styled.div`
     display: flex;
     flex-direction: column;
     width: 64%;
-    height: 60%;
+    height: auto;
     margin-left: 5rem;
 `
 export const Titulo = styled.div`
@@ -18,5 +18,6 @@ export const Info = styled.div`
     width: 85%;
     p{
         font-size: 20px;
+        margin-bottom: 5rem;
     }
 `

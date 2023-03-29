@@ -1,4 +1,3 @@
-import { ButtonInfo } from "../../../../buttons/ButtonInfo";
 import { Info, TextArea, Titulo } from "./styles";
 
 export default function TextInfo(){

@@ -9,7 +9,7 @@ export const RightContainer = styled.div`
     background-image: url('src/images/dispositivo.png');
     background-repeat: no-repeat;
     background-position: 95%;
-    background-size: 38%;
-    z-index: 1;
+    background-size: 40%;
     position: absolute;
+    z-index: 0;
 `

@@ -4,7 +4,4 @@ export const ContainerButtonInfo = styled.div`
     width: 80%;
     height: 30%;
     margin-left: 5rem;
-    button{
-        margin-top: 9rem;
-    }
 `
