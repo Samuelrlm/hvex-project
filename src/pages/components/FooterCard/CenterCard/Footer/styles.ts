@@ -8,6 +8,9 @@ export const ContainerInfos = styled.div`
     width: 100%;
     display: flex;
     align-items: center;
+    #registro{
+        width: 70%;
+    }
     label{
         color: #ffffff;
         font-size: 16px;
