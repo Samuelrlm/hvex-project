@@ -3,22 +3,22 @@ import styled from "styled-components";
 export const  Container = styled.div`
     #titulo{
         display: flex;
-        color: black;
+        color: white;
         h4{
             margin-top: 0.5rem;
             margin-left: 1rem;
         }
     }
-    background-color: white;
+    background-color:#252835;
     position: fixed;
     height: 100%;
     top: 0;
     width: 300px;
     animation: showSidebar .4s;
     box-shadow:0px 10px 40px -12px #00000056;
+    z-index: 3;
     svg{
         position: fixed;
-        color: black;
         width: 35px;
         height: 35px;
         margin-left: 16rem;
@@ -37,7 +37,7 @@ export const  Container = styled.div`
             width: 300px;
         }
     }
-    @media (max-width: 600px) {
+    @media (max-width: 820px) {
         #titulo{
             h4{
                 margin-top: 0.8rem;
@@ -50,47 +50,23 @@ export const Content = styled.div`
     margin-top: 25px;
     display: flex;
     flex-direction: column;
-    margin-left: 1rem;
     height: 65vh;
     gap: 12px;
     overflow:auto;
-    div{
+    #opcoes{
+        width: 100%;
         display: flex;
-        
-    }
-    p{
-        margin-left: 9px;
-        color: black;
-        font-size: medium;
-    }
-    input{
-        -webkit-appearance: none;
-        position: relative;
-        border-radius: 25px;
-        width: 45px;
-        height: 25px;
-        background-color: #ccc;
-        transition: backgroud .3s;
-        outline: none;
-        cursor: pointer;
-        
-    }
-    input::after{
-        content: '';
-        position: absolute;
-        top: 50%;
-        left: 30%;
-        height: 1.20rem;
-        width: 1.20rem;
-        border-radius: 50%;
-        transform: translate(-50%, -50%);
-        background-color: rgb(255,255,255);
-        transition: left .3s;
-    }
-    input:checked{
-        background-color: #0090E4;
-    }
-    input:checked::after{
-        left: 70%;
+        flex-direction: column;
+        label{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            height: 50px;
+            border: 1px solid #00B6DE;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+        }
     }
 `

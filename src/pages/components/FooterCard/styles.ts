@@ -6,4 +6,8 @@ export const ContainerFooter = styled.div`
     display: flex;
     justify-content: center;
     background:#1C2C44 ;
+    margin-bottom: 77px;
+    @media (max-width: 820px) {
+        height: auto;
+    }
 `

@@ -13,13 +13,22 @@ export default function Topicos(){
         {image: 'src/images/Icons/verificadoAzulEscuro.png', text: 'Acompanhamento em tempo real das condições do equipamento'},
 
     ]
+    const largura = window.innerWidth;
+    let gap = '';
+    let width = '600px';
+    let left = '2.5rem';
+    if(largura <= 820){
+        gap = '1rem';
+        width = '100%';
+        left = '5px';
+    }
     return(
-        <ContainerTopicos>
+        <ContainerTopicos style={{gap: gap}}>
             {Topicos.map((info) =>{
                 return(
-                    <Infos style={{width:'600px'}}>
+                    <Infos style={{width: width}}>
                         <img src={info.image} alt="selo verificado" />
-                        <p style={{marginLeft:'2.5rem'}}>{info.text}</p>
+                        <p style={{marginLeft: left}}>{info.text}</p>
                     </Infos>
                 )
             })}

@@ -11,7 +11,7 @@ export const ContainerLogo = styled.div`
             cursor: pointer;
         }
     }
-    @media (max-width: 600px) {
+    @media (max-width: 820px) {
         width: 100%;
         display: flex;
         img{

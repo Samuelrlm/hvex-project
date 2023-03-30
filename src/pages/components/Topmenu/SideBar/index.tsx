@@ -1,8 +1,6 @@
-import { useState } from "react";
 import {FaTimes} from "react-icons/fa"
-import { Link } from "react-router-dom";
 import { LabelModel } from "../../objetos/label";
-import { Btns, Container, Content } from "./styles"
+import { Container, Content } from "./styles"
 
 export const Sidebar = ({ active }) => {
     const closeSidebar = () =>{
@@ -11,12 +9,12 @@ export const Sidebar = ({ active }) => {
     return(
         <Container>
             <div id="titulo" className="titulo">
-                <FaTimes onClick={closeSidebar}/>
-                <h4>SETORES:</h4>
+                <FaTimes onClick={closeSidebar} />
+                <h4>Produtos:</h4>
             </div>
             <Content>
-                <div className="setores">
-                    <LabelModel>
+                <div className="opcoes" id="opcoes">
+                    <LabelModel style={{color: '#00B6DE'}}>
                         Omni trafo
                     </LabelModel>
                     <LabelModel>

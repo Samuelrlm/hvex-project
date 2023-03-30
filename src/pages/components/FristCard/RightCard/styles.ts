@@ -12,4 +12,7 @@ export const RightContainer = styled.div`
     background-size: 40%;
     position: absolute;
     z-index: 0;
+    @media (max-width: 820px) {
+        background-size: 67%;
+    }
 `

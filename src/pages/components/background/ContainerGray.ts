@@ -7,4 +7,11 @@ export const BackgroundGray = styled.div`
     width: 100%;
     height: 100%;
     background: #F4F4F4;
+    @media (max-width: 820px) {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding-left: 1rem;
+    }
 `

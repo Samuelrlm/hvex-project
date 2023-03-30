@@ -26,4 +26,11 @@ export const ContainerPrincipalDivisor = styled.div`
         width: 220px;
         height: 48px;
     }
+
+    @media (max-width: 820px) {
+        width: 100%;
+        h2{
+            font-size: 1.5rem;
+        }
+    }
 `

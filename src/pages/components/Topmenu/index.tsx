@@ -12,7 +12,7 @@ export default function TopMenu(){
     return(
         <ContainerMenu>
             <div className="filtro" id="filtro">
-                <FaBars id="btn-side" onClick={showSidebar}/>
+                <FaBars id="btn-side" onClick={showSidebar} style={{fontSize: '30px'}}/>
                 {sidebar && <Sidebar active={setSidebar}/>}
             </div>
             <LogoMenu/>

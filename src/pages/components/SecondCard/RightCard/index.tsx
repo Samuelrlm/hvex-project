@@ -3,7 +3,7 @@ import TextInfo from "./TextInfo";
 
 export default function RightSecondCard() {
     return (
-        <RightContainerSecond>
+        <RightContainerSecond style={{height: '90vh'}}>
             <TextInfo/>
         </RightContainerSecond>
     )

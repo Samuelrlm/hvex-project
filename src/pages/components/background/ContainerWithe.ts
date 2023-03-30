@@ -7,4 +7,10 @@ export const ContainerCardWithe = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    @media (max-width: 820px) {
+        height: auto;
+        padding-top: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
 `

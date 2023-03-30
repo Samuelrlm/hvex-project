@@ -5,4 +5,7 @@ export const ContainerImgLeft = styled.div`
     img{
         margin-left: 2rem;
     }
+    @media (max-width: 820px) {
+        display: none;
+    }
 `

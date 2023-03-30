@@ -6,4 +6,7 @@ export const ContainerLeftComentario = styled.div`
     color: #ffffff;
     font-size: 21px;
     line-height: 1.5;
+    @media (max-width: 820px) {
+        font-size: 16px;
+    }
 `

@@ -5,6 +5,11 @@ export const ContainerRedes = styled.div`
     display: flex;
     flex-direction: column;
     margin-top: 2rem;
+    @media (max-width: 820px) {
+        width: 100%;
+        text-align: center;
+        margin-top: 0;
+    }
 `
 export const CardRedes =styled.div`
     display: flex;
@@ -27,5 +32,10 @@ export const CardRedes =styled.div`
             margin-right: 0;
         }
         
+    }
+    @media (max-width: 820px) {
+        text-align: center;
+        justify-content: center;
+        margin-right: 0;
     }
 `

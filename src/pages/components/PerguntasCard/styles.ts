@@ -7,4 +7,8 @@ export const ContainerQuestion = styled.div`
     flex-direction: column;
     align-items: center;
     background: #f4f4F4;
+
+    @media (max-width: 820px) {
+        height: auto;
+    }
 `

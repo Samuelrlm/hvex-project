@@ -5,4 +5,10 @@ export const ContainerInfoArea = styled.div`
     height: 90%;
     display: flex;
     flex-direction: column;
+    @media (max-width: 820px) {
+        h2{
+            font-size: 1.5rem;
+        }
+        margin-left: 1rem;
+    }
 `

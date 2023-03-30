@@ -13,9 +13,11 @@ export const ContainerMenu = styled.div`
     #filtro{
         display: none;
     }
-    @media (max-width: 600px) {
+    @media (max-width: 820px) {
         display: flex;
-        height: auto;
+        position: static;
+        width: 100%;
+        height: 80px;
         padding: 0.5rem;
         #filtro{
             display: flex;

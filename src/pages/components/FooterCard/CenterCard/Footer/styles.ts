@@ -14,5 +14,24 @@ export const ContainerInfos = styled.div`
         font-weight: 400;
         font-style: normal;
     }
+    @media (max-width: 820px) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        #tag{
+            display: none;
+        }
+        #registro{
+            width: 100%;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1rem;
+            label{
+                font-size: 12px;
+            }
+        }
+    }
     
 `

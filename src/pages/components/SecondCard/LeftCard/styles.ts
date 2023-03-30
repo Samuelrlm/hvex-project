@@ -6,4 +6,8 @@ export const LeftContainerSecond = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    @media (max-width: 820px) { 
+        width: 100%;
+        display: none;
+    }
 `

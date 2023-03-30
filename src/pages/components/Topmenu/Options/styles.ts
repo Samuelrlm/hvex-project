@@ -7,7 +7,7 @@ export const ContainerOptions = styled.div`
     justify-content: end;
     align-items: center;
     gap: 6rem;
-    @media (max-width: 600px) {
+    @media (max-width: 820px) {
         display: none;
     }
 `

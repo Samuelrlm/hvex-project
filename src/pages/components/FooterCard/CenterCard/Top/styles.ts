@@ -36,5 +36,24 @@ export const ContainerTopFooter = styled.div`
             }
         }
     }
+    @media (max-width: 820px) { 
+        #logo{
+            display: none;
+        }
+        #card{
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+        }
+        #endereco{
+            display: none;
+        }
+        #contato{
+            display: none;
+        }
+        
+    }
     
 `

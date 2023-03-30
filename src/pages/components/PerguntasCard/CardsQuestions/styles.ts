@@ -8,6 +8,12 @@ export const ContainerMainQuestions = styled.div`
     flex-direction: column;
     align-items: center;
     gap: 2rem;
+    @media (max-width: 820px) {
+        width: 100%;
+        :last-child{
+            margin-bottom: 2rem;
+        }
+    }
 `
 
 export const CardQuestion = styled.div`
@@ -33,6 +39,15 @@ export const TituloCard = styled.div`
         font-size: 16px;
         line-height: 150%;
     }
+    @media (max-width: 820px) {
+        padding: 1rem;
+        width: 100%;
+        font-size: 12px;
+        p{
+            width: 100%;
+            font-size: 15px;
+        }
+    }
 `
 
 export const LinhaDivisoria = styled.div`
@@ -41,6 +56,9 @@ export const LinhaDivisoria = styled.div`
     background: #D9D9D9;
     margin-top:2rem;
     margin-bottom: 1rem;
+    @media (max-width: 820px) {
+        margin-top: 1rem;
+    }
 `
 
 export const AreaButton = styled.div`

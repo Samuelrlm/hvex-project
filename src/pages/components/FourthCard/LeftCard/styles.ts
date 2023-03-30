@@ -6,4 +6,7 @@ export const ContainerLeftFourthCard = styled.div`
     img{
         margin-left: 1rem;
     }
+    @media (max-width: 820px) {
+        display: none;
+    }
 `

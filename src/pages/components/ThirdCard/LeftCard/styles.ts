@@ -5,4 +5,7 @@ export const ContainerLeftThirdCard = styled.div`
     height: 100%;
     display: flex;
     align-items: center;
+    @media (max-width: 820px) {
+        width: 100%;
+    }
 `

@@ -5,4 +5,5 @@ export const ContainerLeftDetalhes = styled.div`
     color: #52E0FF;
     width: 95%;
     font-size: 23px;
+    
 `
