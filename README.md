@@ -49,7 +49,7 @@
   ### Gerando imagem com Dockerfile:
   **Para essa etapa utilize o `CMD` ou `powerShell`:** 
    #### 1. Dentro do diretório do projeto execute o seguinte comando para construir a imagem:
-       docker build -t hvex-samuel-lima:1.0
+       docker build -t hvex-samuel-lima:1.0 .
        
   #### 2. Em seguida execute o comando: 
       docker images
@@ -65,5 +65,5 @@
   ### Emulador do navegador:
    - Ao tentar visualizar a forma responsiva do projeto ultilizando o emulador do navegador você pode encontrar alguns problemas de desing, pois os emuladores nao lidam adequadamente com a meta `viewport`.
    - Portanto recomendo a ultilização de um dispositivo movel real.
-   - A aplicação já configurada para rodar em network então você pode acessar a pagina ultilizando o ip e a porta da maquina que executou a imagem do docker.
+   - A aplicação já está configurada para rodar em network então você pode acessar a pagina ultilizando o ip e a porta da maquina que executou a imagem do docker.
   
